@@ -19,7 +19,7 @@
 </select>
 <select id=seltime>
   <option value=></option>
-  <option value=now>今</option>
+  <option value=now selected>今の時間</option>
   <option value=07:00>07:00に</option>
   <option value=08:00>08:00に</option>
   <option value=09:00>09:00に</option>
@@ -139,6 +139,7 @@ selweek.oninput = seltime.oninput = () => {
   chknow.checked = true;
   chknow.oninput();
 };
+selweek.value = new Day().getWeek();
 
 </script>
 
