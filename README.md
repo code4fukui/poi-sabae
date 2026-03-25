@@ -1,20 +1,36 @@
 # poi-sabae
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-https://code4fukui.github.io/poi-sabae/
+さばえちず
+
+**Live demo**: https://code4fukui.github.io/poi-sabae/
 
 ## Features
-- Interactive map and viewer for points of interest (POI) in Sabae City, Fukui prefecture, Japan
-- Allows filtering by day of the week and time to show open locations
-- Utilizes open data from the city government
 
-## Usage
-1. Open the [demo page](https://code4fukui.github.io/poi-sabae/).
-2. Use the checkboxes and dropdown menus to filter the displayed POIs by day of the week and time.
-3. Click on the map markers or the table rows to view more information about each location.
+- CSV data parsing
 
-## Data / API
-The data for the POIs is stored in the `poi-sabae.csv` file and fetched using the CSV.js library.
+## Technology Stack
+
+**Browser modules (ES imports):**
+
+- [`CSV.js`](https://js.sabae.cc/CSV.js)
+- [`DateTime.js`](https://js.sabae.cc/DateTime.js)
+- [`DateTime.js`](https://js.sabae.cc/DateTime.js)
+- [`checkTime.js`](https://code4fukui.github.io/fukui-night/checkTime.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/poi-sabae/
+
+## Data Sources
+
+- DATA: POI鯖江
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
